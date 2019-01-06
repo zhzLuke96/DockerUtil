@@ -18,7 +18,11 @@ dockerfile &amp;&amp; bash
 从上到下依次迭代
 
 <hr>
-- doc-clear.sh: 自动清除所有中间层容器和debug镜像
+
+- doc-clear.sh: 清除所有中间层容器和debug镜像
+- builds.sh: build所有image
+- mk_lang_all: 包含所有语言环境的镜像（在lang/all中）
+- lukr-clear.sh: 清除自建 主要是写的时候用得到，当然只是让过程清晰一点好debug，并没有实际用途，反而需要重复构建
 
 # LICENSE
 MIT
